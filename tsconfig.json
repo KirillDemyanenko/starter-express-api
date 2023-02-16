@@ -1,0 +1,36 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+//    "outFile": "./dist/server.js",
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+//    "watch": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "pretty": true,
+    "lib": [
+      "es2015",
+      "es2020"
+    ],
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["tests", "node_modules", "dist"]
+}
